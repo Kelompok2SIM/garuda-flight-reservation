@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Tiket</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background-color: #f4f6f8; }
+        h1 { color: #333; }
+        label, input, select { display: block; margin-bottom: 10px; }
+        button { padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Form Pemesanan Tiket Pesawat</h1>
+    <form action="passenger.html">
+        <label>Rute Penerbangan:</label>
+        <select>
+            <option>Jakarta - Medan</option>
+            <option>Jakarta - Surabaya</option>
+            <option>Jakarta - Bali</option>
+        </select>
+        <label>Tanggal:</label>
+        <input type="date">
+        <label>Jumlah Penumpang:</label>
+        <input type="number" value="1">
+        <button type="submit">Lanjutkan</button>
+    </form>
+</body>
+</html>
